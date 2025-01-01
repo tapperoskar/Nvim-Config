@@ -1,11 +1,7 @@
-return { 
-  "https://github.com/morhetz/gruvbox", 
-  lazy = false,
-  name = "gruvbox",
-  priority = 1000, 
-  config = function() 
-    vim.cmd.colorscheme "gruvbox"
+-- Lazy
+return {
+  "vague2k/vague.nvim",
+  config = function()
+   vim.cmd("colorscheme vague") 
   end
-
 }
-
